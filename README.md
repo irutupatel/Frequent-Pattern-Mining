@@ -56,7 +56,8 @@ NA
 	2
 	data mining
 	frequent pattern mining
-	mining frequent patterns from the transaction dataset closed and maximal pattern mining
+	mining frequent patterns from the transaction dataset 
+	closed and maximal pattern mining
 
 ### Sample Output 1
     4 [ mining ]
