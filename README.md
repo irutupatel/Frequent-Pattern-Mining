@@ -4,11 +4,10 @@ This question aims to provide you a better understanding of the frequent pattern
 2. Implement a closed pattern mining algorithm to mine the closed frequent patterns from the same transaction dataset. An easy way is to write code based on the frequent patterns you got from part 1.
 3. Implement a maximal pattern mining algorithm to mine the maximal frequent patterns from the same transaction dataset. An easy way is to write code based on the frequent patterns you got from part 1.
 
-## Dependencies
-- None
-
-## Requirements
-- Python 3
+## Specification:
+- The frequent patterns should be ordered according to their support from largest to small- est. Ties should be resolved by ordering the frequent patterns according to the alphabetical order.
+- First print all the frequent patterns for part 1, then the closed frequent patterns for part 2 and last the maximal frequent patterns for part 3. Each part should be separated by an empty line.
+- Please refer to the sample output below. In sample output 0, the first 9 patterns are the frequent patterns for part 1, the following 3 patterns are the closed frequent patterns for part 2 and the last 2 patterns are the maximal frequent patterns for part 3.
 
 ## Input Format
 - The input dataset is a transaction dataset.
@@ -29,15 +28,6 @@ NA
     Support [ frequent pattern ]
 
     ......
-
-
-## Run as
-python PatternMining.py
-
-## Operation:
-- The frequent patterns should be ordered according to their support from largest to small- est. Ties should be resolved by ordering the frequent patterns according to the alphabetical order.
-- First print all the frequent patterns for part 1, then the closed frequent patterns for part 2 and last the maximal frequent patterns for part 3. Each part should be separated by an empty line.
-- Please refer to the sample output below. In sample output 0, the first 9 patterns are the frequent patterns for part 1, the following 3 patterns are the closed frequent patterns for part 2 and the last 2 patterns are the maximal frequent patterns for part 3.
 
 ### Sample Input 0
 	2
@@ -81,3 +71,13 @@ python PatternMining.py
     
     2 [ frequent mining ] 
     2 [ mining pattern ]
+
+
+## Dependencies
+- None
+
+## Requirements
+- Python 3
+
+## Run as
+python PatternMining.py
