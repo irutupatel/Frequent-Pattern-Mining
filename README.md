@@ -81,4 +81,4 @@ NA
 - Python 3
 
 ## Run as
-python PatternMining.py
+'python PatternMining.py'
