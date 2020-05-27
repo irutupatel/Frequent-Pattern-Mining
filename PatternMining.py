@@ -1,6 +1,4 @@
 # Hackerrank Pattern Mining
-# CS 412 HW 1 Spring 2020
-# WORKING CODE
 
 import sys
 import itertools
