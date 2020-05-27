@@ -60,18 +60,18 @@ NA
 	closed and maximal pattern mining
 
 ### Sample Output 1
-    4 [ mining ]
-    2 [ frequent ]
-    2 [ frequent mining ] 
-    2 [ mining pattern ] 
-    2 [ pattern ]
+    4 [mining]
+    2 [frequent]
+    2 [frequent mining] 
+    2 [mining pattern] 
+    2 [pattern]
     
-    4 [ mining ]
-    2 [ frequent mining ]
-    2 [ mining pattern ]
+    4 [mining]
+    2 [frequent mining]
+    2 [mining pattern]
     
-    2 [ frequent mining ] 
-    2 [ mining pattern ]
+    2 [frequent mining]
+    2 [mining pattern]
 
 
 ## Dependencies
